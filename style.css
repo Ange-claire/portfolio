@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+    width:100px;
+    border-radius: 10px;
+}
+nav{
+    background-color: rgb(189, 189, 126);
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color:bisque ;
+    margin-left: 5%;
+    
+}
+a:hover {
+    background-color: peru;
+    color: white;
+    padding: 5px;
+   
+}
+a:visited{
+    background-color: palegreen;
+    color: brown;
+}
+body{
+    background-color: rgb(194, 194, 105);
+}
+#about{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+section{
+    margin-right: 100;
+    box-shadow: 5px 5px 5px black;
+    width: 40%;
+    border-radius: 15px 15px 15px 15px;
+    padding: 10px;
+    background-color: bisque;
+
+}
+    footer{
+        margin-left: 15%;
+        box-shadow: 5px 5px 5px black;
+        width: 90%;
+        border-radius: 15px 0px 15px 0px;
+        padding: 10px;
+        background-color: bisque;
+        display:flex;
+        border-left: 10px solid ;
+        justify-content: space-between;
+    }
+    #skills,#hobbies,#experience{
+        width: 30%;
+        padding: 20px;
+
+    }
+    #experience,#hobbies{
+        margin-left: 400px;
+    }
+    .contact img{
+        width: 30px;
+        height: 30px;
+        border-radius: 80%;
+    }
